@@ -1,10 +1,10 @@
-package com.example.test_lab_week_12
+package com.example.test_lab_week_13
 
 import android.app.Application
 import kotlin.jvm.java
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
-import com.example.test_lab_week_12.api.MovieService
+import com.example.test_lab_week_13.api.MovieService
 class MovieApplication : Application() {
     lateinit var movieRepository: MovieRepository
     override fun onCreate() {
